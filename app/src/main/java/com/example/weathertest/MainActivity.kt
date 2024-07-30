@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val textView = findViewById<TextView>(R.id.tvTemperature)
+        val tvTemperature = findViewById<TextView>(R.id.tvTemperature)
         val btnWeather = findViewById<Button>(R.id.btnWeather)
         btnWeather.setOnClickListener {
             val intent = Intent(this, WeatherActivity::class.java).also(::startActivity)
