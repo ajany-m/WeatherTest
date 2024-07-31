@@ -41,6 +41,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.retrofit)
     implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.converter.gson)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
