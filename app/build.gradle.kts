@@ -37,12 +37,14 @@ android {
 
 dependencies {
 
+    val koin_android_version = "3.5.6"
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.retrofit)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.converter.gson)
     implementation(libs.gson)
+    implementation(libs.koin.android)
 
 
     implementation(libs.androidx.core.ktx)
